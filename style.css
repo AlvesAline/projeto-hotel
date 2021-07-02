@@ -9,19 +9,24 @@
     display:flex;
     flex-direction: row;
     justify-content:space-between;
-    background: linear-gradient(to top, #AED4DA 25%,#9BB6BB 25%, #9DD1D8 50% ) ;
+    background: linear-gradient(to top, #AED4DA ,#9BB6BB , #9DD1D8  ) ;
 }
 
-div a {
-    margin-left: 10px;
-    text-decoration:none; 
-    color: white;
+.menu a:hover{
+    background-color: gainsboro;
 }
 
 .links-menu{
     font-size: 20px;
 }
 
+div a {
+    border-right: gainsboro solid 1px;
+    padding-right: 15px;
+    margin-left: 10px;
+    text-decoration:none; 
+    color: white;
+}
 
 .pesquisar{
     font-size: 20px; 
@@ -40,13 +45,14 @@ div a {
 .footer{
     padding:20px;
     text-align: center;
-    background: linear-gradient(to top, #AED4DA 25%,#9BB6BB 25%, #9DD1D8 50% );
+    background: linear-gradient(to top, #AED4DA ,#9BB6BB , #9DD1D8 );
     color:rgb(92, 91, 91);
 }
 
 .icone-inicial{
     margin-left: 50%;
 }
+
 .icones{
     margin-top: 20px;
     font-size: 50px;
@@ -65,8 +71,6 @@ div a {
     font-size: 20px;
     color: rgb(92, 91, 91);
 }
-
-
 
 .rodape {
     margin-top: 10px;
@@ -115,3 +119,22 @@ align-items: center;
     color: #fff;
     margin-bottom: 20px;
 }
+
+.barrabranca{
+    margin-top: 4px;
+}
+
+
+/* .links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.sublinks{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
